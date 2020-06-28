@@ -1,0 +1,3395 @@
+@import "variables";
+
+@font-face {
+  font-family: '@{icomoon-font-family}';
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?yjqrmk');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?yjqrmk#iefix') format('embedded-opentype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?yjqrmk') format('truetype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?yjqrmk') format('woff'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?yjqrmk#@{icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '@{icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alarm {
+  &:before {
+    content: @alarm; 
+  }
+}
+.alarm-fill {
+  &:before {
+    content: @alarm-fill; 
+  }
+}
+.alt {
+  &:before {
+    content: @alt; 
+  }
+}
+.app {
+  &:before {
+    content: @app; 
+  }
+}
+.app-indicator {
+  &:before {
+    content: @app-indicator; 
+  }
+}
+.archive {
+  &:before {
+    content: @archive; 
+  }
+}
+.archive-fill {
+  &:before {
+    content: @archive-fill; 
+  }
+}
+.arrow-90deg-down {
+  &:before {
+    content: @arrow-90deg-down; 
+  }
+}
+.arrow-90deg-left {
+  &:before {
+    content: @arrow-90deg-left; 
+  }
+}
+.arrow-90deg-right {
+  &:before {
+    content: @arrow-90deg-right; 
+  }
+}
+.arrow-90deg-up {
+  &:before {
+    content: @arrow-90deg-up; 
+  }
+}
+.arrow-bar-down {
+  &:before {
+    content: @arrow-bar-down; 
+  }
+}
+.arrow-bar-left {
+  &:before {
+    content: @arrow-bar-left; 
+  }
+}
+.arrow-bar-right {
+  &:before {
+    content: @arrow-bar-right; 
+  }
+}
+.arrow-bar-up {
+  &:before {
+    content: @arrow-bar-up; 
+  }
+}
+.arrow-clockwise {
+  &:before {
+    content: @arrow-clockwise; 
+  }
+}
+.arrow-counterclockwise {
+  &:before {
+    content: @arrow-counterclockwise; 
+  }
+}
+.arrow-down {
+  &:before {
+    content: @arrow-down; 
+  }
+}
+.arrow-down-circle {
+  &:before {
+    content: @arrow-down-circle; 
+  }
+}
+.arrow-down-circle-fill {
+  &:before {
+    content: @arrow-down-circle-fill; 
+  }
+}
+.arrow-down-left {
+  &:before {
+    content: @arrow-down-left; 
+  }
+}
+.arrow-down-left-circle {
+  &:before {
+    content: @arrow-down-left-circle; 
+  }
+}
+.arrow-down-left-circle-fill {
+  &:before {
+    content: @arrow-down-left-circle-fill; 
+  }
+}
+.arrow-down-left-square {
+  &:before {
+    content: @arrow-down-left-square; 
+  }
+}
+.arrow-down-left-square-fill {
+  &:before {
+    content: @arrow-down-left-square-fill; 
+  }
+}
+.arrow-down-right {
+  &:before {
+    content: @arrow-down-right; 
+  }
+}
+.arrow-down-right-circle {
+  &:before {
+    content: @arrow-down-right-circle; 
+  }
+}
+.arrow-down-right-circle-fill {
+  &:before {
+    content: @arrow-down-right-circle-fill; 
+  }
+}
+.arrow-down-right-square {
+  &:before {
+    content: @arrow-down-right-square; 
+  }
+}
+.arrow-down-right-square-fill {
+  &:before {
+    content: @arrow-down-right-square-fill; 
+  }
+}
+.arrow-down-short {
+  &:before {
+    content: @arrow-down-short; 
+  }
+}
+.arrow-down-square {
+  &:before {
+    content: @arrow-down-square; 
+  }
+}
+.arrow-down-square-fill {
+  &:before {
+    content: @arrow-down-square-fill; 
+  }
+}
+.arrow-down-up {
+  &:before {
+    content: @arrow-down-up; 
+  }
+}
+.arrow-left {
+  &:before {
+    content: @arrow-left; 
+  }
+}
+.arrow-left-circle {
+  &:before {
+    content: @arrow-left-circle; 
+  }
+}
+.arrow-left-circle-fill {
+  &:before {
+    content: @arrow-left-circle-fill; 
+  }
+}
+.arrow-left-right {
+  &:before {
+    content: @arrow-left-right; 
+  }
+}
+.arrow-left-short {
+  &:before {
+    content: @arrow-left-short; 
+  }
+}
+.arrow-left-square {
+  &:before {
+    content: @arrow-left-square; 
+  }
+}
+.arrow-left-square-fill {
+  &:before {
+    content: @arrow-left-square-fill; 
+  }
+}
+.arrow-repeat {
+  &:before {
+    content: @arrow-repeat; 
+  }
+}
+.arrow-return-left {
+  &:before {
+    content: @arrow-return-left; 
+  }
+}
+.arrow-return-right {
+  &:before {
+    content: @arrow-return-right; 
+  }
+}
+.arrow-right {
+  &:before {
+    content: @arrow-right; 
+  }
+}
+.arrow-right-circle {
+  &:before {
+    content: @arrow-right-circle; 
+  }
+}
+.arrow-right-circle-fill {
+  &:before {
+    content: @arrow-right-circle-fill; 
+  }
+}
+.arrow-right-short {
+  &:before {
+    content: @arrow-right-short; 
+  }
+}
+.arrow-right-square {
+  &:before {
+    content: @arrow-right-square; 
+  }
+}
+.arrow-right-square-fill {
+  &:before {
+    content: @arrow-right-square-fill; 
+  }
+}
+.arrows-angle-contract {
+  &:before {
+    content: @arrows-angle-contract; 
+  }
+}
+.arrows-angle-expand {
+  &:before {
+    content: @arrows-angle-expand; 
+  }
+}
+.arrows-collapse {
+  &:before {
+    content: @arrows-collapse; 
+  }
+}
+.arrows-expand {
+  &:before {
+    content: @arrows-expand; 
+  }
+}
+.arrows-fullscreen {
+  &:before {
+    content: @arrows-fullscreen; 
+  }
+}
+.arrows-move {
+  &:before {
+    content: @arrows-move; 
+  }
+}
+.arrow-up {
+  &:before {
+    content: @arrow-up; 
+  }
+}
+.arrow-up-circle {
+  &:before {
+    content: @arrow-up-circle; 
+  }
+}
+.arrow-up-circle-fill {
+  &:before {
+    content: @arrow-up-circle-fill; 
+  }
+}
+.arrow-up-left {
+  &:before {
+    content: @arrow-up-left; 
+  }
+}
+.arrow-up-left-circle {
+  &:before {
+    content: @arrow-up-left-circle; 
+  }
+}
+.arrow-up-left-circle-fill {
+  &:before {
+    content: @arrow-up-left-circle-fill; 
+  }
+}
+.arrow-up-left-square {
+  &:before {
+    content: @arrow-up-left-square; 
+  }
+}
+.arrow-up-left-square-fill {
+  &:before {
+    content: @arrow-up-left-square-fill; 
+  }
+}
+.arrow-up-right {
+  &:before {
+    content: @arrow-up-right; 
+  }
+}
+.arrow-up-right-circle {
+  &:before {
+    content: @arrow-up-right-circle; 
+  }
+}
+.arrow-up-right-circle-fill {
+  &:before {
+    content: @arrow-up-right-circle-fill; 
+  }
+}
+.arrow-up-right-square {
+  &:before {
+    content: @arrow-up-right-square; 
+  }
+}
+.arrow-up-right-square-fill {
+  &:before {
+    content: @arrow-up-right-square-fill; 
+  }
+}
+.arrow-up-short {
+  &:before {
+    content: @arrow-up-short; 
+  }
+}
+.arrow-up-square {
+  &:before {
+    content: @arrow-up-square; 
+  }
+}
+.arrow-up-square-fill {
+  &:before {
+    content: @arrow-up-square-fill; 
+  }
+}
+.aspect-ratio {
+  &:before {
+    content: @aspect-ratio; 
+  }
+}
+.aspect-ratio-fill {
+  &:before {
+    content: @aspect-ratio-fill; 
+  }
+}
+.asterisk {
+  &:before {
+    content: @asterisk; 
+  }
+}
+.at {
+  &:before {
+    content: @at; 
+  }
+}
+.award {
+  &:before {
+    content: @award; 
+  }
+}
+.award-fill {
+  &:before {
+    content: @award-fill; 
+  }
+}
+.backspace {
+  &:before {
+    content: @backspace; 
+  }
+}
+.backspace-fill {
+  &:before {
+    content: @backspace-fill; 
+  }
+}
+.backspace-reverse {
+  &:before {
+    content: @backspace-reverse; 
+  }
+}
+.backspace-reverse-fill {
+  &:before {
+    content: @backspace-reverse-fill; 
+  }
+}
+.bag {
+  &:before {
+    content: @bag; 
+  }
+}
+.bag-check {
+  &:before {
+    content: @bag-check; 
+  }
+}
+.bag-dash {
+  &:before {
+    content: @bag-dash; 
+  }
+}
+.bag-fill {
+  &:before {
+    content: @bag-fill; 
+  }
+}
+.bag-plus {
+  &:before {
+    content: @bag-plus; 
+  }
+}
+.bar-chart {
+  &:before {
+    content: @bar-chart; 
+  }
+}
+.bar-chart-fill {
+  &:before {
+    content: @bar-chart-fill; 
+  }
+}
+.basket {
+  &:before {
+    content: @basket; 
+  }
+}
+.basket2 {
+  &:before {
+    content: @basket2; 
+  }
+}
+.basket2-fill {
+  &:before {
+    content: @basket2-fill; 
+  }
+}
+.basket3 {
+  &:before {
+    content: @basket3; 
+  }
+}
+.basket3-fill {
+  &:before {
+    content: @basket3-fill; 
+  }
+}
+.basket-fill {
+  &:before {
+    content: @basket-fill; 
+  }
+}
+.battery {
+  &:before {
+    content: @battery; 
+  }
+}
+.battery-charging {
+  &:before {
+    content: @battery-charging; 
+  }
+}
+.battery-full {
+  &:before {
+    content: @battery-full; 
+  }
+}
+.battery-half {
+  &:before {
+    content: @battery-half; 
+  }
+}
+.bell {
+  &:before {
+    content: @bell; 
+  }
+}
+.bell-fill {
+  &:before {
+    content: @bell-fill; 
+  }
+}
+.blockquote-left {
+  &:before {
+    content: @blockquote-left; 
+  }
+}
+.blockquote-right {
+  &:before {
+    content: @blockquote-right; 
+  }
+}
+.book {
+  &:before {
+    content: @book; 
+  }
+}
+.book-half {
+  &:before {
+    content: @book-half; 
+  }
+}
+.bookmark {
+  &:before {
+    content: @bookmark; 
+  }
+}
+.bookmark-check {
+  &:before {
+    content: @bookmark-check; 
+  }
+}
+.bookmark-dash {
+  &:before {
+    content: @bookmark-dash; 
+  }
+}
+.bookmark-fill {
+  &:before {
+    content: @bookmark-fill; 
+  }
+}
+.bookmark-plus {
+  &:before {
+    content: @bookmark-plus; 
+  }
+}
+.bookmarks {
+  &:before {
+    content: @bookmarks; 
+  }
+}
+.bookmarks-fill {
+  &:before {
+    content: @bookmarks-fill; 
+  }
+}
+.bootstrap {
+  &:before {
+    content: @bootstrap; 
+  }
+}
+.bootstrap-fill {
+  &:before {
+    content: @bootstrap-fill; 
+  }
+}
+.bootstrap-reboot {
+  &:before {
+    content: @bootstrap-reboot; 
+  }
+}
+.bounding-box {
+  &:before {
+    content: @bounding-box; 
+  }
+}
+.bounding-box-circles {
+  &:before {
+    content: @bounding-box-circles; 
+  }
+}
+.box {
+  &:before {
+    content: @box; 
+  }
+}
+.box-arrow-down {
+  &:before {
+    content: @box-arrow-down; 
+  }
+}
+.box-arrow-down-left {
+  &:before {
+    content: @box-arrow-down-left; 
+  }
+}
+.box-arrow-down-right {
+  &:before {
+    content: @box-arrow-down-right; 
+  }
+}
+.box-arrow-in-down {
+  &:before {
+    content: @box-arrow-in-down; 
+  }
+}
+.box-arrow-in-down-left {
+  &:before {
+    content: @box-arrow-in-down-left; 
+  }
+}
+.box-arrow-in-down-right {
+  &:before {
+    content: @box-arrow-in-down-right; 
+  }
+}
+.box-arrow-in-left {
+  &:before {
+    content: @box-arrow-in-left; 
+  }
+}
+.box-arrow-in-right {
+  &:before {
+    content: @box-arrow-in-right; 
+  }
+}
+.box-arrow-in-up {
+  &:before {
+    content: @box-arrow-in-up; 
+  }
+}
+.box-arrow-in-up-left {
+  &:before {
+    content: @box-arrow-in-up-left; 
+  }
+}
+.box-arrow-in-up-right {
+  &:before {
+    content: @box-arrow-in-up-right; 
+  }
+}
+.box-arrow-left {
+  &:before {
+    content: @box-arrow-left; 
+  }
+}
+.box-arrow-right {
+  &:before {
+    content: @box-arrow-right; 
+  }
+}
+.box-arrow-up {
+  &:before {
+    content: @box-arrow-up; 
+  }
+}
+.box-arrow-up-left {
+  &:before {
+    content: @box-arrow-up-left; 
+  }
+}
+.box-arrow-up-right {
+  &:before {
+    content: @box-arrow-up-right; 
+  }
+}
+.box-seam {
+  &:before {
+    content: @box-seam; 
+  }
+}
+.braces {
+  &:before {
+    content: @braces; 
+  }
+}
+.briefcase {
+  &:before {
+    content: @briefcase; 
+  }
+}
+.briefcase-fill {
+  &:before {
+    content: @briefcase-fill; 
+  }
+}
+.brightness-alt-high {
+  &:before {
+    content: @brightness-alt-high; 
+  }
+}
+.brightness-alt-high-fill {
+  &:before {
+    content: @brightness-alt-high-fill; 
+  }
+}
+.brightness-alt-low {
+  &:before {
+    content: @brightness-alt-low; 
+  }
+}
+.brightness-alt-low-fill {
+  &:before {
+    content: @brightness-alt-low-fill; 
+  }
+}
+.brightness-high {
+  &:before {
+    content: @brightness-high; 
+  }
+}
+.brightness-high-fill {
+  &:before {
+    content: @brightness-high-fill; 
+  }
+}
+.brightness-low {
+  &:before {
+    content: @brightness-low; 
+  }
+}
+.brightness-low-fill {
+  &:before {
+    content: @brightness-low-fill; 
+  }
+}
+.brush {
+  &:before {
+    content: @brush; 
+  }
+}
+.bucket {
+  &:before {
+    content: @bucket; 
+  }
+}
+.bucket-fill {
+  &:before {
+    content: @bucket-fill; 
+  }
+}
+.building {
+  &:before {
+    content: @building; 
+  }
+}
+.bullseye {
+  &:before {
+    content: @bullseye; 
+  }
+}
+.calendar {
+  &:before {
+    content: @calendar; 
+  }
+}
+.calendar2 {
+  &:before {
+    content: @calendar2; 
+  }
+}
+.calendar2-check {
+  &:before {
+    content: @calendar2-check; 
+  }
+}
+.calendar2-check-fill {
+  &:before {
+    content: @calendar2-check-fill; 
+  }
+}
+.calendar2-date {
+  &:before {
+    content: @calendar2-date; 
+  }
+}
+.calendar2-date-fill {
+  &:before {
+    content: @calendar2-date-fill; 
+  }
+}
+.calendar2-day {
+  &:before {
+    content: @calendar2-day; 
+  }
+}
+.calendar2-day-fill {
+  &:before {
+    content: @calendar2-day-fill; 
+  }
+}
+.calendar2-fill {
+  &:before {
+    content: @calendar2-fill; 
+  }
+}
+.calendar2-minus {
+  &:before {
+    content: @calendar2-minus; 
+  }
+}
+.calendar2-minus-fill {
+  &:before {
+    content: @calendar2-minus-fill; 
+  }
+}
+.calendar2-month {
+  &:before {
+    content: @calendar2-month; 
+  }
+}
+.calendar2-month-fill {
+  &:before {
+    content: @calendar2-month-fill; 
+  }
+}
+.calendar2-plus {
+  &:before {
+    content: @calendar2-plus; 
+  }
+}
+.calendar2-plus-fill {
+  &:before {
+    content: @calendar2-plus-fill; 
+  }
+}
+.calendar3 {
+  &:before {
+    content: @calendar3; 
+  }
+}
+.calendar3-fill {
+  &:before {
+    content: @calendar3-fill; 
+  }
+}
+.calendar4 {
+  &:before {
+    content: @calendar4; 
+  }
+}
+.calendar-check {
+  &:before {
+    content: @calendar-check; 
+  }
+}
+.calendar-check-fill {
+  &:before {
+    content: @calendar-check-fill; 
+  }
+}
+.calendar-date {
+  &:before {
+    content: @calendar-date; 
+  }
+}
+.calendar-date-fill {
+  &:before {
+    content: @calendar-date-fill; 
+  }
+}
+.calendar-day {
+  &:before {
+    content: @calendar-day; 
+  }
+}
+.calendar-day-fill {
+  &:before {
+    content: @calendar-day-fill; 
+  }
+}
+.calendar-fill {
+  &:before {
+    content: @calendar-fill; 
+  }
+}
+.calendar-minus {
+  &:before {
+    content: @calendar-minus; 
+  }
+}
+.calendar-minus-fill {
+  &:before {
+    content: @calendar-minus-fill; 
+  }
+}
+.calendar-month {
+  &:before {
+    content: @calendar-month; 
+  }
+}
+.calendar-month-fill {
+  &:before {
+    content: @calendar-month-fill; 
+  }
+}
+.calendar-plus {
+  &:before {
+    content: @calendar-plus; 
+  }
+}
+.calendar-plus-fill {
+  &:before {
+    content: @calendar-plus-fill; 
+  }
+}
+.camera {
+  &:before {
+    content: @camera; 
+  }
+}
+.camera-video {
+  &:before {
+    content: @camera-video; 
+  }
+}
+.camera-video-fill {
+  &:before {
+    content: @camera-video-fill; 
+  }
+}
+.camera-video-off {
+  &:before {
+    content: @camera-video-off; 
+  }
+}
+.camera-video-off-fill {
+  &:before {
+    content: @camera-video-off-fill; 
+  }
+}
+.capslock {
+  &:before {
+    content: @capslock; 
+  }
+}
+.capslock-fill {
+  &:before {
+    content: @capslock-fill; 
+  }
+}
+.card-checklist {
+  &:before {
+    content: @card-checklist; 
+  }
+}
+.card-heading {
+  &:before {
+    content: @card-heading; 
+  }
+}
+.card-image {
+  &:before {
+    content: @card-image; 
+  }
+}
+.card-list {
+  &:before {
+    content: @card-list; 
+  }
+}
+.card-text {
+  &:before {
+    content: @card-text; 
+  }
+}
+.caret-down {
+  &:before {
+    content: @caret-down; 
+  }
+}
+.caret-down-fill {
+  &:before {
+    content: @caret-down-fill; 
+  }
+}
+.caret-down-square {
+  &:before {
+    content: @caret-down-square; 
+  }
+}
+.caret-down-square-fill {
+  &:before {
+    content: @caret-down-square-fill; 
+  }
+}
+.caret-left {
+  &:before {
+    content: @caret-left; 
+  }
+}
+.caret-left-fill {
+  &:before {
+    content: @caret-left-fill; 
+  }
+}
+.caret-left-square {
+  &:before {
+    content: @caret-left-square; 
+  }
+}
+.caret-left-square-fill {
+  &:before {
+    content: @caret-left-square-fill; 
+  }
+}
+.caret-right {
+  &:before {
+    content: @caret-right; 
+  }
+}
+.caret-right-fill {
+  &:before {
+    content: @caret-right-fill; 
+  }
+}
+.caret-right-square {
+  &:before {
+    content: @caret-right-square; 
+  }
+}
+.caret-right-square-fill {
+  &:before {
+    content: @caret-right-square-fill; 
+  }
+}
+.caret-up {
+  &:before {
+    content: @caret-up; 
+  }
+}
+.caret-up-fill {
+  &:before {
+    content: @caret-up-fill; 
+  }
+}
+.caret-up-square {
+  &:before {
+    content: @caret-up-square; 
+  }
+}
+.caret-up-square-fill {
+  &:before {
+    content: @caret-up-square-fill; 
+  }
+}
+.cart {
+  &:before {
+    content: @cart; 
+  }
+}
+.cart2 {
+  &:before {
+    content: @cart2; 
+  }
+}
+.cart3 {
+  &:before {
+    content: @cart3; 
+  }
+}
+.cart4 {
+  &:before {
+    content: @cart4; 
+  }
+}
+.cart-check {
+  &:before {
+    content: @cart-check; 
+  }
+}
+.cart-dash {
+  &:before {
+    content: @cart-dash; 
+  }
+}
+.cart-fill {
+  &:before {
+    content: @cart-fill; 
+  }
+}
+.cart-plus {
+  &:before {
+    content: @cart-plus; 
+  }
+}
+.chat {
+  &:before {
+    content: @chat; 
+  }
+}
+.chat-dots {
+  &:before {
+    content: @chat-dots; 
+  }
+}
+.chat-dots-fill {
+  &:before {
+    content: @chat-dots-fill; 
+  }
+}
+.chat-fill {
+  &:before {
+    content: @chat-fill; 
+  }
+}
+.chat-quote {
+  &:before {
+    content: @chat-quote; 
+  }
+}
+.chat-quote-fill {
+  &:before {
+    content: @chat-quote-fill; 
+  }
+}
+.chat-square {
+  &:before {
+    content: @chat-square; 
+  }
+}
+.chat-square-dots {
+  &:before {
+    content: @chat-square-dots; 
+  }
+}
+.chat-square-dots-fill {
+  &:before {
+    content: @chat-square-dots-fill; 
+  }
+}
+.chat-square-fill {
+  &:before {
+    content: @chat-square-fill; 
+  }
+}
+.chat-square-quote {
+  &:before {
+    content: @chat-square-quote; 
+  }
+}
+.chat-square-quote-fill {
+  &:before {
+    content: @chat-square-quote-fill; 
+  }
+}
+.check {
+  &:before {
+    content: @check; 
+  }
+}
+.check2 {
+  &:before {
+    content: @check2; 
+  }
+}
+.check2-all {
+  &:before {
+    content: @check2-all; 
+  }
+}
+.check2-circle {
+  &:before {
+    content: @check2-circle; 
+  }
+}
+.check2-square {
+  &:before {
+    content: @check2-square; 
+  }
+}
+.check-all {
+  &:before {
+    content: @check-all; 
+  }
+}
+.check-circle {
+  &:before {
+    content: @check-circle; 
+  }
+}
+.check-circle-fill {
+  &:before {
+    content: @check-circle-fill; 
+  }
+}
+.check-square {
+  &:before {
+    content: @check-square; 
+  }
+}
+.check-square-fill {
+  &:before {
+    content: @check-square-fill; 
+  }
+}
+.chevron-bar-contract {
+  &:before {
+    content: @chevron-bar-contract; 
+  }
+}
+.chevron-bar-down {
+  &:before {
+    content: @chevron-bar-down; 
+  }
+}
+.chevron-bar-expand {
+  &:before {
+    content: @chevron-bar-expand; 
+  }
+}
+.chevron-bar-left {
+  &:before {
+    content: @chevron-bar-left; 
+  }
+}
+.chevron-bar-right {
+  &:before {
+    content: @chevron-bar-right; 
+  }
+}
+.chevron-bar-up {
+  &:before {
+    content: @chevron-bar-up; 
+  }
+}
+.chevron-compact-down {
+  &:before {
+    content: @chevron-compact-down; 
+  }
+}
+.chevron-compact-left {
+  &:before {
+    content: @chevron-compact-left; 
+  }
+}
+.chevron-compact-right {
+  &:before {
+    content: @chevron-compact-right; 
+  }
+}
+.chevron-compact-up {
+  &:before {
+    content: @chevron-compact-up; 
+  }
+}
+.chevron-contract {
+  &:before {
+    content: @chevron-contract; 
+  }
+}
+.chevron-double-down {
+  &:before {
+    content: @chevron-double-down; 
+  }
+}
+.chevron-double-left {
+  &:before {
+    content: @chevron-double-left; 
+  }
+}
+.chevron-double-right {
+  &:before {
+    content: @chevron-double-right; 
+  }
+}
+.chevron-double-up {
+  &:before {
+    content: @chevron-double-up; 
+  }
+}
+.chevron-down {
+  &:before {
+    content: @chevron-down; 
+  }
+}
+.chevron-expand {
+  &:before {
+    content: @chevron-expand; 
+  }
+}
+.chevron-left {
+  &:before {
+    content: @chevron-left; 
+  }
+}
+.chevron-right {
+  &:before {
+    content: @chevron-right; 
+  }
+}
+.chevron-up {
+  &:before {
+    content: @chevron-up; 
+  }
+}
+.circle {
+  &:before {
+    content: @circle; 
+  }
+}
+.circle-fill {
+  &:before {
+    content: @circle-fill; 
+  }
+}
+.circle-half {
+  &:before {
+    content: @circle-half; 
+  }
+}
+.circle-square {
+  &:before {
+    content: @circle-square; 
+  }
+}
+.clipboard {
+  &:before {
+    content: @clipboard; 
+  }
+}
+.clipboard-data {
+  &:before {
+    content: @clipboard-data; 
+  }
+}
+.clock {
+  &:before {
+    content: @clock; 
+  }
+}
+.clock-fill {
+  &:before {
+    content: @clock-fill; 
+  }
+}
+.clock-history {
+  &:before {
+    content: @clock-history; 
+  }
+}
+.cloud {
+  &:before {
+    content: @cloud; 
+  }
+}
+.cloud-download {
+  &:before {
+    content: @cloud-download; 
+  }
+}
+.cloud-fill {
+  &:before {
+    content: @cloud-fill; 
+  }
+}
+.cloud-slash {
+  &:before {
+    content: @cloud-slash; 
+  }
+}
+.cloud-slash-fill {
+  &:before {
+    content: @cloud-slash-fill; 
+  }
+}
+.cloud-upload {
+  &:before {
+    content: @cloud-upload; 
+  }
+}
+.code {
+  &:before {
+    content: @code; 
+  }
+}
+.code-slash {
+  &:before {
+    content: @code-slash; 
+  }
+}
+.collection {
+  &:before {
+    content: @collection; 
+  }
+}
+.collection-fill {
+  &:before {
+    content: @collection-fill; 
+  }
+}
+.collection-play {
+  &:before {
+    content: @collection-play; 
+  }
+}
+.collection-play-fill {
+  &:before {
+    content: @collection-play-fill; 
+  }
+}
+.columns {
+  &:before {
+    content: @columns; 
+  }
+}
+.columns-gap {
+  &:before {
+    content: @columns-gap; 
+  }
+}
+.command {
+  &:before {
+    content: @command; 
+  }
+}
+.compass {
+  &:before {
+    content: @compass; 
+  }
+}
+.cone {
+  &:before {
+    content: @cone; 
+  }
+}
+.cone-striped {
+  &:before {
+    content: @cone-striped; 
+  }
+}
+.controller {
+  &:before {
+    content: @controller; 
+  }
+}
+.credit-card {
+  &:before {
+    content: @credit-card; 
+  }
+}
+.crop {
+  &:before {
+    content: @crop; 
+  }
+}
+.cup {
+  &:before {
+    content: @cup; 
+  }
+}
+.cursor {
+  &:before {
+    content: @cursor; 
+  }
+}
+.cursor-fill {
+  &:before {
+    content: @cursor-fill; 
+  }
+}
+.cursor-text {
+  &:before {
+    content: @cursor-text; 
+  }
+}
+.dash {
+  &:before {
+    content: @dash; 
+  }
+}
+.dash-circle {
+  &:before {
+    content: @dash-circle; 
+  }
+}
+.dash-circle-fill {
+  &:before {
+    content: @dash-circle-fill; 
+  }
+}
+.dash-square {
+  &:before {
+    content: @dash-square; 
+  }
+}
+.dash-square-fill {
+  &:before {
+    content: @dash-square-fill; 
+  }
+}
+.diamond {
+  &:before {
+    content: @diamond; 
+  }
+}
+.diamond-fill {
+  &:before {
+    content: @diamond-fill; 
+  }
+}
+.diamond-half {
+  &:before {
+    content: @diamond-half; 
+  }
+}
+.display {
+  &:before {
+    content: @display; 
+  }
+}
+.display-fill {
+  &:before {
+    content: @display-fill; 
+  }
+}
+.door-closed {
+  &:before {
+    content: @door-closed; 
+  }
+}
+.door-closed-fill {
+  &:before {
+    content: @door-closed-fill; 
+  }
+}
+.dot {
+  &:before {
+    content: @dot; 
+  }
+}
+.download {
+  &:before {
+    content: @download; 
+  }
+}
+.droplet {
+  &:before {
+    content: @droplet; 
+  }
+}
+.droplet-fill {
+  &:before {
+    content: @droplet-fill; 
+  }
+}
+.droplet-half {
+  &:before {
+    content: @droplet-half; 
+  }
+}
+.egg {
+  &:before {
+    content: @egg; 
+  }
+}
+.egg-fill {
+  &:before {
+    content: @egg-fill; 
+  }
+}
+.egg-fried {
+  &:before {
+    content: @egg-fried; 
+  }
+}
+.eject {
+  &:before {
+    content: @eject; 
+  }
+}
+.eject-fill {
+  &:before {
+    content: @eject-fill; 
+  }
+}
+.emoji-angry {
+  &:before {
+    content: @emoji-angry; 
+  }
+}
+.emoji-dizzy {
+  &:before {
+    content: @emoji-dizzy; 
+  }
+}
+.emoji-frown {
+  &:before {
+    content: @emoji-frown; 
+  }
+}
+.emoji-laughing {
+  &:before {
+    content: @emoji-laughing; 
+  }
+}
+.emoji-neutral {
+  &:before {
+    content: @emoji-neutral; 
+  }
+}
+.emoji-smile {
+  &:before {
+    content: @emoji-smile; 
+  }
+}
+.emoji-smile-upside-down {
+  &:before {
+    content: @emoji-smile-upside-down; 
+  }
+}
+.emoji-sunglasses {
+  &:before {
+    content: @emoji-sunglasses; 
+  }
+}
+.envelope {
+  &:before {
+    content: @envelope; 
+  }
+}
+.envelope-fill {
+  &:before {
+    content: @envelope-fill; 
+  }
+}
+.envelope-open {
+  &:before {
+    content: @envelope-open; 
+  }
+}
+.envelope-open-fill {
+  &:before {
+    content: @envelope-open-fill; 
+  }
+}
+.exclamation {
+  &:before {
+    content: @exclamation; 
+  }
+}
+.exclamation-circle {
+  &:before {
+    content: @exclamation-circle; 
+  }
+}
+.exclamation-circle-fill {
+  &:before {
+    content: @exclamation-circle-fill; 
+  }
+}
+.exclamation-diamond {
+  &:before {
+    content: @exclamation-diamond; 
+  }
+}
+.exclamation-diamond-fill {
+  &:before {
+    content: @exclamation-diamond-fill; 
+  }
+}
+.exclamation-octagon {
+  &:before {
+    content: @exclamation-octagon; 
+  }
+}
+.exclamation-octagon-fill {
+  &:before {
+    content: @exclamation-octagon-fill; 
+  }
+}
+.exclamation-square {
+  &:before {
+    content: @exclamation-square; 
+  }
+}
+.exclamation-square-fill {
+  &:before {
+    content: @exclamation-square-fill; 
+  }
+}
+.exclamation-triangle {
+  &:before {
+    content: @exclamation-triangle; 
+  }
+}
+.exclamation-triangle-fill {
+  &:before {
+    content: @exclamation-triangle-fill; 
+  }
+}
+.exclude {
+  &:before {
+    content: @exclude; 
+  }
+}
+.eye {
+  &:before {
+    content: @eye; 
+  }
+}
+.eye-fill {
+  &:before {
+    content: @eye-fill; 
+  }
+}
+.eye-slash {
+  &:before {
+    content: @eye-slash; 
+  }
+}
+.eye-slash-fill {
+  &:before {
+    content: @eye-slash-fill; 
+  }
+}
+.file {
+  &:before {
+    content: @file; 
+  }
+}
+.file-arrow-down {
+  &:before {
+    content: @file-arrow-down; 
+  }
+}
+.file-arrow-up {
+  &:before {
+    content: @file-arrow-up; 
+  }
+}
+.file-break {
+  &:before {
+    content: @file-break; 
+  }
+}
+.file-check {
+  &:before {
+    content: @file-check; 
+  }
+}
+.file-code {
+  &:before {
+    content: @file-code; 
+  }
+}
+.file-diff {
+  &:before {
+    content: @file-diff; 
+  }
+}
+.file-earmark {
+  &:before {
+    content: @file-earmark; 
+  }
+}
+.file-earmark-arrow-down {
+  &:before {
+    content: @file-earmark-arrow-down; 
+  }
+}
+.file-earmark-arrow-up {
+  &:before {
+    content: @file-earmark-arrow-up; 
+  }
+}
+.file-earmark-break {
+  &:before {
+    content: @file-earmark-break; 
+  }
+}
+.file-earmark-check {
+  &:before {
+    content: @file-earmark-check; 
+  }
+}
+.file-earmark-code {
+  &:before {
+    content: @file-earmark-code; 
+  }
+}
+.file-earmark-diff {
+  &:before {
+    content: @file-earmark-diff; 
+  }
+}
+.file-earmark-minus {
+  &:before {
+    content: @file-earmark-minus; 
+  }
+}
+.file-earmark-plus {
+  &:before {
+    content: @file-earmark-plus; 
+  }
+}
+.file-earmark-ruled {
+  &:before {
+    content: @file-earmark-ruled; 
+  }
+}
+.file-earmark-spreadsheet {
+  &:before {
+    content: @file-earmark-spreadsheet; 
+  }
+}
+.file-earmark-text {
+  &:before {
+    content: @file-earmark-text; 
+  }
+}
+.file-earmark-zip {
+  &:before {
+    content: @file-earmark-zip; 
+  }
+}
+.file-minus {
+  &:before {
+    content: @file-minus; 
+  }
+}
+.file-plus {
+  &:before {
+    content: @file-plus; 
+  }
+}
+.file-post {
+  &:before {
+    content: @file-post; 
+  }
+}
+.file-richtext {
+  &:before {
+    content: @file-richtext; 
+  }
+}
+.file-ruled {
+  &:before {
+    content: @file-ruled; 
+  }
+}
+.files {
+  &:before {
+    content: @files; 
+  }
+}
+.files-alt {
+  &:before {
+    content: @files-alt; 
+  }
+}
+.file-spreadsheet {
+  &:before {
+    content: @file-spreadsheet; 
+  }
+}
+.file-text {
+  &:before {
+    content: @file-text; 
+  }
+}
+.file-zip {
+  &:before {
+    content: @file-zip; 
+  }
+}
+.film {
+  &:before {
+    content: @film; 
+  }
+}
+.filter {
+  &:before {
+    content: @filter; 
+  }
+}
+.filter-left {
+  &:before {
+    content: @filter-left; 
+  }
+}
+.filter-right {
+  &:before {
+    content: @filter-right; 
+  }
+}
+.flag {
+  &:before {
+    content: @flag; 
+  }
+}
+.flag-fill {
+  &:before {
+    content: @flag-fill; 
+  }
+}
+.folder {
+  &:before {
+    content: @folder; 
+  }
+}
+.folder-check {
+  &:before {
+    content: @folder-check; 
+  }
+}
+.folder-fill {
+  &:before {
+    content: @folder-fill; 
+  }
+}
+.folder-minus {
+  &:before {
+    content: @folder-minus; 
+  }
+}
+.folder-plus {
+  &:before {
+    content: @folder-plus; 
+  }
+}
+.folder-symlink {
+  &:before {
+    content: @folder-symlink; 
+  }
+}
+.folder-symlink-fill {
+  &:before {
+    content: @folder-symlink-fill; 
+  }
+}
+.fonts {
+  &:before {
+    content: @fonts; 
+  }
+}
+.forward {
+  &:before {
+    content: @forward; 
+  }
+}
+.forward-fill {
+  &:before {
+    content: @forward-fill; 
+  }
+}
+.fullscreen {
+  &:before {
+    content: @fullscreen; 
+  }
+}
+.fullscreen-exit {
+  &:before {
+    content: @fullscreen-exit; 
+  }
+}
+.funnel {
+  &:before {
+    content: @funnel; 
+  }
+}
+.funnel-fill {
+  &:before {
+    content: @funnel-fill; 
+  }
+}
+.gear {
+  &:before {
+    content: @gear; 
+  }
+}
+.gear-fill {
+  &:before {
+    content: @gear-fill; 
+  }
+}
+.gear-wide {
+  &:before {
+    content: @gear-wide; 
+  }
+}
+.gear-wide-connected {
+  &:before {
+    content: @gear-wide-connected; 
+  }
+}
+.gem {
+  &:before {
+    content: @gem; 
+  }
+}
+.geo {
+  &:before {
+    content: @geo; 
+  }
+}
+.geo-alt {
+  &:before {
+    content: @geo-alt; 
+  }
+}
+.gift {
+  &:before {
+    content: @gift; 
+  }
+}
+.gift-fill {
+  &:before {
+    content: @gift-fill; 
+  }
+}
+.graph-down {
+  &:before {
+    content: @graph-down; 
+  }
+}
+.graph-up {
+  &:before {
+    content: @graph-up; 
+  }
+}
+.grid {
+  &:before {
+    content: @grid; 
+  }
+}
+.grid-1x2 {
+  &:before {
+    content: @grid-1x2; 
+  }
+}
+.grid-1x2-fill {
+  &:before {
+    content: @grid-1x2-fill; 
+  }
+}
+.grid-3x2 {
+  &:before {
+    content: @grid-3x2; 
+  }
+}
+.grid-3x2-gap {
+  &:before {
+    content: @grid-3x2-gap; 
+  }
+}
+.grid-3x2-gap-fill {
+  &:before {
+    content: @grid-3x2-gap-fill; 
+  }
+}
+.grid-3x3 {
+  &:before {
+    content: @grid-3x3; 
+  }
+}
+.grid-3x3-gap {
+  &:before {
+    content: @grid-3x3-gap; 
+  }
+}
+.grid-3x3-gap-fill {
+  &:before {
+    content: @grid-3x3-gap-fill; 
+  }
+}
+.grid-fill {
+  &:before {
+    content: @grid-fill; 
+  }
+}
+.grip-horizontal {
+  &:before {
+    content: @grip-horizontal; 
+  }
+}
+.grip-vertical {
+  &:before {
+    content: @grip-vertical; 
+  }
+}
+.hammer {
+  &:before {
+    content: @hammer; 
+  }
+}
+.handbag {
+  &:before {
+    content: @handbag; 
+  }
+}
+.handbag-fill {
+  &:before {
+    content: @handbag-fill; 
+  }
+}
+.hand-index {
+  &:before {
+    content: @hand-index; 
+  }
+}
+.hand-index-thumb {
+  &:before {
+    content: @hand-index-thumb; 
+  }
+}
+.hand-thumbs-down {
+  &:before {
+    content: @hand-thumbs-down; 
+  }
+}
+.hand-thumbs-up {
+  &:before {
+    content: @hand-thumbs-up; 
+  }
+}
+.hash {
+  &:before {
+    content: @hash; 
+  }
+}
+.headphones {
+  &:before {
+    content: @headphones; 
+  }
+}
+.heart {
+  &:before {
+    content: @heart; 
+  }
+}
+.heart-fill {
+  &:before {
+    content: @heart-fill; 
+  }
+}
+.heart-half {
+  &:before {
+    content: @heart-half; 
+  }
+}
+.hexagon {
+  &:before {
+    content: @hexagon; 
+  }
+}
+.hexagon-fill {
+  &:before {
+    content: @hexagon-fill; 
+  }
+}
+.hexagon-half {
+  &:before {
+    content: @hexagon-half; 
+  }
+}
+.house {
+  &:before {
+    content: @house; 
+  }
+}
+.house-door {
+  &:before {
+    content: @house-door; 
+  }
+}
+.house-door-fill {
+  &:before {
+    content: @house-door-fill; 
+  }
+}
+.house-fill {
+  &:before {
+    content: @house-fill; 
+  }
+}
+.hr {
+  &:before {
+    content: @hr; 
+  }
+}
+.image {
+  &:before {
+    content: @image; 
+  }
+}
+.image-alt {
+  &:before {
+    content: @image-alt; 
+  }
+}
+.image-fill {
+  &:before {
+    content: @image-fill; 
+  }
+}
+.images {
+  &:before {
+    content: @images; 
+  }
+}
+.inbox {
+  &:before {
+    content: @inbox; 
+  }
+}
+.inboxes {
+  &:before {
+    content: @inboxes; 
+  }
+}
+.inboxes-fill {
+  &:before {
+    content: @inboxes-fill; 
+  }
+}
+.inbox-fill {
+  &:before {
+    content: @inbox-fill; 
+  }
+}
+.info {
+  &:before {
+    content: @info; 
+  }
+}
+.info-circle {
+  &:before {
+    content: @info-circle; 
+  }
+}
+.info-circle-fill {
+  &:before {
+    content: @info-circle-fill; 
+  }
+}
+.info-square {
+  &:before {
+    content: @info-square; 
+  }
+}
+.info-square-fill {
+  &:before {
+    content: @info-square-fill; 
+  }
+}
+.intersect {
+  &:before {
+    content: @intersect; 
+  }
+}
+.justify {
+  &:before {
+    content: @justify; 
+  }
+}
+.justify-left {
+  &:before {
+    content: @justify-left; 
+  }
+}
+.justify-right {
+  &:before {
+    content: @justify-right; 
+  }
+}
+.kanban {
+  &:before {
+    content: @kanban; 
+  }
+}
+.kanban-fill {
+  &:before {
+    content: @kanban-fill; 
+  }
+}
+.laptop {
+  &:before {
+    content: @laptop; 
+  }
+}
+.layers {
+  &:before {
+    content: @layers; 
+  }
+}
+.layers-fill {
+  &:before {
+    content: @layers-fill; 
+  }
+}
+.layers-half {
+  &:before {
+    content: @layers-half; 
+  }
+}
+.layout-sidebar {
+  &:before {
+    content: @layout-sidebar; 
+  }
+}
+.layout-sidebar-inset {
+  &:before {
+    content: @layout-sidebar-inset; 
+  }
+}
+.layout-sidebar-inset-reverse {
+  &:before {
+    content: @layout-sidebar-inset-reverse; 
+  }
+}
+.layout-sidebar-reverse {
+  &:before {
+    content: @layout-sidebar-reverse; 
+  }
+}
+.layout-split {
+  &:before {
+    content: @layout-split; 
+  }
+}
+.layout-text-sidebar {
+  &:before {
+    content: @layout-text-sidebar; 
+  }
+}
+.layout-text-sidebar-reverse {
+  &:before {
+    content: @layout-text-sidebar-reverse; 
+  }
+}
+.layout-text-window {
+  &:before {
+    content: @layout-text-window; 
+  }
+}
+.layout-text-window-reverse {
+  &:before {
+    content: @layout-text-window-reverse; 
+  }
+}
+.layout-three-columns {
+  &:before {
+    content: @layout-three-columns; 
+  }
+}
+.layout-wtf {
+  &:before {
+    content: @layout-wtf; 
+  }
+}
+.life-preserver {
+  &:before {
+    content: @life-preserver; 
+  }
+}
+.lightning {
+  &:before {
+    content: @lightning; 
+  }
+}
+.lightning-fill {
+  &:before {
+    content: @lightning-fill; 
+  }
+}
+.link {
+  &:before {
+    content: @link; 
+  }
+}
+.link-45deg {
+  &:before {
+    content: @link-45deg; 
+  }
+}
+.list {
+  &:before {
+    content: @list; 
+  }
+}
+.list-check {
+  &:before {
+    content: @list-check; 
+  }
+}
+.list-nested {
+  &:before {
+    content: @list-nested; 
+  }
+}
+.list-ol {
+  &:before {
+    content: @list-ol; 
+  }
+}
+.list-task {
+  &:before {
+    content: @list-task; 
+  }
+}
+.list-ul {
+  &:before {
+    content: @list-ul; 
+  }
+}
+.lock {
+  &:before {
+    content: @lock; 
+  }
+}
+.lock-fill {
+  &:before {
+    content: @lock-fill; 
+  }
+}
+.map {
+  &:before {
+    content: @map; 
+  }
+}
+.mic {
+  &:before {
+    content: @mic; 
+  }
+}
+.mic-fill {
+  &:before {
+    content: @mic-fill; 
+  }
+}
+.mic-mute {
+  &:before {
+    content: @mic-mute; 
+  }
+}
+.mic-mute-fill {
+  &:before {
+    content: @mic-mute-fill; 
+  }
+}
+.minecart {
+  &:before {
+    content: @minecart; 
+  }
+}
+.minecart-loaded {
+  &:before {
+    content: @minecart-loaded; 
+  }
+}
+.moon {
+  &:before {
+    content: @moon; 
+  }
+}
+.music-note {
+  &:before {
+    content: @music-note; 
+  }
+}
+.music-note-beamed {
+  &:before {
+    content: @music-note-beamed; 
+  }
+}
+.music-note-list {
+  &:before {
+    content: @music-note-list; 
+  }
+}
+.music-player {
+  &:before {
+    content: @music-player; 
+  }
+}
+.music-player-fill {
+  &:before {
+    content: @music-player-fill; 
+  }
+}
+.newspaper {
+  &:before {
+    content: @newspaper; 
+  }
+}
+.octagon {
+  &:before {
+    content: @octagon; 
+  }
+}
+.octagon-fill {
+  &:before {
+    content: @octagon-fill; 
+  }
+}
+.octagon-half {
+  &:before {
+    content: @octagon-half; 
+  }
+}
+.option {
+  &:before {
+    content: @option; 
+  }
+}
+.outlet {
+  &:before {
+    content: @outlet; 
+  }
+}
+.paperclip {
+  &:before {
+    content: @paperclip; 
+  }
+}
+.pause {
+  &:before {
+    content: @pause; 
+  }
+}
+.pause-fill {
+  &:before {
+    content: @pause-fill; 
+  }
+}
+.pen {
+  &:before {
+    content: @pen; 
+  }
+}
+.pencil {
+  &:before {
+    content: @pencil; 
+  }
+}
+.pencil-square {
+  &:before {
+    content: @pencil-square; 
+  }
+}
+.pentagon {
+  &:before {
+    content: @pentagon; 
+  }
+}
+.pentagon-fill {
+  &:before {
+    content: @pentagon-fill; 
+  }
+}
+.pentagon-half {
+  &:before {
+    content: @pentagon-half; 
+  }
+}
+.people {
+  &:before {
+    content: @people; 
+  }
+}
+.people-fill {
+  &:before {
+    content: @people-fill; 
+  }
+}
+.person {
+  &:before {
+    content: @person; 
+  }
+}
+.person-bounding-box {
+  &:before {
+    content: @person-bounding-box; 
+  }
+}
+.person-check {
+  &:before {
+    content: @person-check; 
+  }
+}
+.person-check-fill {
+  &:before {
+    content: @person-check-fill; 
+  }
+}
+.person-circle {
+  &:before {
+    content: @person-circle; 
+  }
+}
+.person-dash {
+  &:before {
+    content: @person-dash; 
+  }
+}
+.person-dash-fill {
+  &:before {
+    content: @person-dash-fill; 
+  }
+}
+.person-fill {
+  &:before {
+    content: @person-fill; 
+  }
+}
+.person-lines-fill {
+  &:before {
+    content: @person-lines-fill; 
+  }
+}
+.person-plus {
+  &:before {
+    content: @person-plus; 
+  }
+}
+.person-plus-fill {
+  &:before {
+    content: @person-plus-fill; 
+  }
+}
+.person-square {
+  &:before {
+    content: @person-square; 
+  }
+}
+.phone {
+  &:before {
+    content: @phone; 
+  }
+}
+.phone-landscape {
+  &:before {
+    content: @phone-landscape; 
+  }
+}
+.pie-chart {
+  &:before {
+    content: @pie-chart; 
+  }
+}
+.pie-chart-fill {
+  &:before {
+    content: @pie-chart-fill; 
+  }
+}
+.pip {
+  &:before {
+    content: @pip; 
+  }
+}
+.pip-fill {
+  &:before {
+    content: @pip-fill; 
+  }
+}
+.play {
+  &:before {
+    content: @play; 
+  }
+}
+.play-fill {
+  &:before {
+    content: @play-fill; 
+  }
+}
+.plug {
+  &:before {
+    content: @plug; 
+  }
+}
+.plus {
+  &:before {
+    content: @plus; 
+  }
+}
+.plus-circle {
+  &:before {
+    content: @plus-circle; 
+  }
+}
+.plus-circle-fill {
+  &:before {
+    content: @plus-circle-fill; 
+  }
+}
+.plus-square {
+  &:before {
+    content: @plus-square; 
+  }
+}
+.plus-square-fill {
+  &:before {
+    content: @plus-square-fill; 
+  }
+}
+.power {
+  &:before {
+    content: @power; 
+  }
+}
+.puzzle {
+  &:before {
+    content: @puzzle; 
+  }
+}
+.puzzle-fill {
+  &:before {
+    content: @puzzle-fill; 
+  }
+}
+.question {
+  &:before {
+    content: @question; 
+  }
+}
+.question-circle {
+  &:before {
+    content: @question-circle; 
+  }
+}
+.question-circle-fill {
+  &:before {
+    content: @question-circle-fill; 
+  }
+}
+.question-diamond {
+  &:before {
+    content: @question-diamond; 
+  }
+}
+.question-diamond-fill {
+  &:before {
+    content: @question-diamond-fill; 
+  }
+}
+.question-octagon {
+  &:before {
+    content: @question-octagon; 
+  }
+}
+.question-octagon-fill {
+  &:before {
+    content: @question-octagon-fill; 
+  }
+}
+.question-square {
+  &:before {
+    content: @question-square; 
+  }
+}
+.question-square-fill {
+  &:before {
+    content: @question-square-fill; 
+  }
+}
+.receipt {
+  &:before {
+    content: @receipt; 
+  }
+}
+.receipt-cutoff {
+  &:before {
+    content: @receipt-cutoff; 
+  }
+}
+.reply {
+  &:before {
+    content: @reply; 
+  }
+}
+.reply-all {
+  &:before {
+    content: @reply-all; 
+  }
+}
+.reply-all-fill {
+  &:before {
+    content: @reply-all-fill; 
+  }
+}
+.reply-fill {
+  &:before {
+    content: @reply-fill; 
+  }
+}
+.screwdriver {
+  &:before {
+    content: @screwdriver; 
+  }
+}
+.search {
+  &:before {
+    content: @search; 
+  }
+}
+.server {
+  &:before {
+    content: @server; 
+  }
+}
+.shield {
+  &:before {
+    content: @shield; 
+  }
+}
+.shield-fill {
+  &:before {
+    content: @shield-fill; 
+  }
+}
+.shield-lock {
+  &:before {
+    content: @shield-lock; 
+  }
+}
+.shield-lock-fill {
+  &:before {
+    content: @shield-lock-fill; 
+  }
+}
+.shield-shaded {
+  &:before {
+    content: @shield-shaded; 
+  }
+}
+.shield-slash {
+  &:before {
+    content: @shield-slash; 
+  }
+}
+.shield-slash-fill {
+  &:before {
+    content: @shield-slash-fill; 
+  }
+}
+.shift {
+  &:before {
+    content: @shift; 
+  }
+}
+.shift-fill {
+  &:before {
+    content: @shift-fill; 
+  }
+}
+.shop {
+  &:before {
+    content: @shop; 
+  }
+}
+.shop-window {
+  &:before {
+    content: @shop-window; 
+  }
+}
+.shuffle {
+  &:before {
+    content: @shuffle; 
+  }
+}
+.skip-backward {
+  &:before {
+    content: @skip-backward; 
+  }
+}
+.skip-backward-fill {
+  &:before {
+    content: @skip-backward-fill; 
+  }
+}
+.skip-end {
+  &:before {
+    content: @skip-end; 
+  }
+}
+.skip-end-fill {
+  &:before {
+    content: @skip-end-fill; 
+  }
+}
+.skip-forward {
+  &:before {
+    content: @skip-forward; 
+  }
+}
+.skip-forward-fill {
+  &:before {
+    content: @skip-forward-fill; 
+  }
+}
+.skip-start {
+  &:before {
+    content: @skip-start; 
+  }
+}
+.skip-start-fill {
+  &:before {
+    content: @skip-start-fill; 
+  }
+}
+.slash {
+  &:before {
+    content: @slash; 
+  }
+}
+.slash-circle {
+  &:before {
+    content: @slash-circle; 
+  }
+}
+.slash-circle-fill {
+  &:before {
+    content: @slash-circle-fill; 
+  }
+}
+.slash-square {
+  &:before {
+    content: @slash-square; 
+  }
+}
+.slash-square-fill {
+  &:before {
+    content: @slash-square-fill; 
+  }
+}
+.sliders {
+  &:before {
+    content: @sliders; 
+  }
+}
+.soundwave {
+  &:before {
+    content: @soundwave; 
+  }
+}
+.speaker {
+  &:before {
+    content: @speaker; 
+  }
+}
+.square {
+  &:before {
+    content: @square; 
+  }
+}
+.square-fill {
+  &:before {
+    content: @square-fill; 
+  }
+}
+.square-half {
+  &:before {
+    content: @square-half; 
+  }
+}
+.star {
+  &:before {
+    content: @star; 
+  }
+}
+.star-fill {
+  &:before {
+    content: @star-fill; 
+  }
+}
+.star-half {
+  &:before {
+    content: @star-half; 
+  }
+}
+.stop {
+  &:before {
+    content: @stop; 
+  }
+}
+.stop-fill {
+  &:before {
+    content: @stop-fill; 
+  }
+}
+.stopwatch {
+  &:before {
+    content: @stopwatch; 
+  }
+}
+.stopwatch-fill {
+  &:before {
+    content: @stopwatch-fill; 
+  }
+}
+.subtract {
+  &:before {
+    content: @subtract; 
+  }
+}
+.sun {
+  &:before {
+    content: @sun; 
+  }
+}
+.table {
+  &:before {
+    content: @table; 
+  }
+}
+.tablet {
+  &:before {
+    content: @tablet; 
+  }
+}
+.tablet-landscape {
+  &:before {
+    content: @tablet-landscape; 
+  }
+}
+.tag {
+  &:before {
+    content: @tag; 
+  }
+}
+.tag-fill {
+  &:before {
+    content: @tag-fill; 
+  }
+}
+.terminal {
+  &:before {
+    content: @terminal; 
+  }
+}
+.terminal-fill {
+  &:before {
+    content: @terminal-fill; 
+  }
+}
+.textarea {
+  &:before {
+    content: @textarea; 
+  }
+}
+.textarea-t {
+  &:before {
+    content: @textarea-t; 
+  }
+}
+.text-center {
+  &:before {
+    content: @text-center; 
+  }
+}
+.text-indent-left {
+  &:before {
+    content: @text-indent-left; 
+  }
+}
+.text-indent-right {
+  &:before {
+    content: @text-indent-right; 
+  }
+}
+.text-left {
+  &:before {
+    content: @text-left; 
+  }
+}
+.text-right {
+  &:before {
+    content: @text-right; 
+  }
+}
+.three-dots {
+  &:before {
+    content: @three-dots; 
+  }
+}
+.three-dots-vertical {
+  &:before {
+    content: @three-dots-vertical; 
+  }
+}
+.toggle-off {
+  &:before {
+    content: @toggle-off; 
+  }
+}
+.toggle-on {
+  &:before {
+    content: @toggle-on; 
+  }
+}
+.toggles {
+  &:before {
+    content: @toggles; 
+  }
+}
+.tools {
+  &:before {
+    content: @tools; 
+  }
+}
+.trash {
+  &:before {
+    content: @trash; 
+  }
+}
+.trash2 {
+  &:before {
+    content: @trash2; 
+  }
+}
+.trash2-fill {
+  &:before {
+    content: @trash2-fill; 
+  }
+}
+.trash-fill {
+  &:before {
+    content: @trash-fill; 
+  }
+}
+.triangle {
+  &:before {
+    content: @triangle; 
+  }
+}
+.triangle-fill {
+  &:before {
+    content: @triangle-fill; 
+  }
+}
+.triangle-half {
+  &:before {
+    content: @triangle-half; 
+  }
+}
+.trophy {
+  &:before {
+    content: @trophy; 
+  }
+}
+.truck {
+  &:before {
+    content: @truck; 
+  }
+}
+.truck-flatbed {
+  &:before {
+    content: @truck-flatbed; 
+  }
+}
+.tv {
+  &:before {
+    content: @tv; 
+  }
+}
+.tv-fill {
+  &:before {
+    content: @tv-fill; 
+  }
+}
+.type {
+  &:before {
+    content: @type; 
+  }
+}
+.type-bold {
+  &:before {
+    content: @type-bold; 
+  }
+}
+.type-h1 {
+  &:before {
+    content: @type-h1; 
+  }
+}
+.type-h2 {
+  &:before {
+    content: @type-h2; 
+  }
+}
+.type-h3 {
+  &:before {
+    content: @type-h3; 
+  }
+}
+.type-italic {
+  &:before {
+    content: @type-italic; 
+  }
+}
+.type-strikethrough {
+  &:before {
+    content: @type-strikethrough; 
+  }
+}
+.type-underline {
+  &:before {
+    content: @type-underline; 
+  }
+}
+.union {
+  &:before {
+    content: @union; 
+  }
+}
+.unlock {
+  &:before {
+    content: @unlock; 
+  }
+}
+.unlock-fill {
+  &:before {
+    content: @unlock-fill; 
+  }
+}
+.upc {
+  &:before {
+    content: @upc; 
+  }
+}
+.upc-scan {
+  &:before {
+    content: @upc-scan; 
+  }
+}
+.upload {
+  &:before {
+    content: @upload; 
+  }
+}
+.view-list {
+  &:before {
+    content: @view-list; 
+  }
+}
+.view-stacked {
+  &:before {
+    content: @view-stacked; 
+  }
+}
+.volume-down {
+  &:before {
+    content: @volume-down; 
+  }
+}
+.volume-down-fill {
+  &:before {
+    content: @volume-down-fill; 
+  }
+}
+.volume-mute {
+  &:before {
+    content: @volume-mute; 
+  }
+}
+.volume-mute-fill {
+  &:before {
+    content: @volume-mute-fill; 
+  }
+}
+.volume-off {
+  &:before {
+    content: @volume-off; 
+  }
+}
+.volume-off-fill {
+  &:before {
+    content: @volume-off-fill; 
+  }
+}
+.volume-up {
+  &:before {
+    content: @volume-up; 
+  }
+}
+.volume-up-fill {
+  &:before {
+    content: @volume-up-fill; 
+  }
+}
+.vr {
+  &:before {
+    content: @vr; 
+  }
+}
+.wallet {
+  &:before {
+    content: @wallet; 
+  }
+}
+.wallet2 {
+  &:before {
+    content: @wallet2; 
+  }
+}
+.watch {
+  &:before {
+    content: @watch; 
+  }
+}
+.wifi {
+  &:before {
+    content: @wifi; 
+  }
+}
+.window {
+  &:before {
+    content: @window; 
+  }
+}
+.wrench {
+  &:before {
+    content: @wrench; 
+  }
+}
+.x {
+  &:before {
+    content: @x; 
+  }
+}
+.x-circle {
+  &:before {
+    content: @x-circle; 
+  }
+}
+.x-circle-fill {
+  &:before {
+    content: @x-circle-fill; 
+  }
+}
+.x-diamond {
+  &:before {
+    content: @x-diamond; 
+  }
+}
+.x-diamond-fill {
+  &:before {
+    content: @x-diamond-fill; 
+  }
+}
+.x-octagon {
+  &:before {
+    content: @x-octagon; 
+  }
+}
+.x-octagon-fill {
+  &:before {
+    content: @x-octagon-fill; 
+  }
+}
+.x-square {
+  &:before {
+    content: @x-square; 
+  }
+}
+.x-square-fill {
+  &:before {
+    content: @x-square-fill; 
+  }
+}
+
