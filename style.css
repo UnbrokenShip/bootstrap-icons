@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'bs-icons';
-  src:  url('fonts/bs-icons.eot?kgwdh9');
-  src:  url('fonts/bs-icons.eot?kgwdh9#iefix') format('embedded-opentype'),
-    url('fonts/bs-icons.ttf?kgwdh9') format('truetype'),
-    url('fonts/bs-icons.woff?kgwdh9') format('woff'),
-    url('fonts/bs-icons.svg?kgwdh9#bs-icons') format('svg');
+  src:  url('fonts/bs-icons.eot?3bn2wo');
+  src:  url('fonts/bs-icons.eot?3bn2wo#iefix') format('embedded-opentype'),
+    url('fonts/bs-icons.ttf?3bn2wo') format('truetype'),
+    url('fonts/bs-icons.woff?3bn2wo') format('woff'),
+    url('fonts/bs-icons.svg?3bn2wo#bs-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+.bsi {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'bs-icons' !important;
   speak: never;
